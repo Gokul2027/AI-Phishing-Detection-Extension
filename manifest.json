@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "PhishGuard AI Detector",
+  "version": "1.0",
+  "description": "Uses AI to detect potential phishing websites in real-time.",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "PhishGuard AI"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
